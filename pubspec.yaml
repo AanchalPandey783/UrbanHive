@@ -1,0 +1,66 @@
+name: ecommerce_platform
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #----------------Packages----------------#
+
+  # Google Fonts
+  google_fonts: ^6.2.1
+
+  # Utility Packages
+  http: ^1.2.1
+  intl: ^0.19.0
+  logger: ^2.3.0
+  url_launcher: ^6.3.0
+  intl_phone_number_input: ^0.7.0+2
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
+  carousel_slider: ^4.2.1
+
+  # Icon Packages
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  #----------------Packages End----------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  #----------------Local Assets----------------#
+
+  assets:
+    - assets/images/on_boarding_screen_images/
+    - assets/images/email_verification/
+    - assets/images/banners/
+    - assets/logos/brands/
+    - assets/icons/categories/
+
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: assets/fonts/Schyler-Regular.ttf
+        - asset: assets/fonts/Schyler-Italic.ttf
+          style: italic
+    - family: Trajan Pro
+      fonts:
+        - asset: assets/fonts/TrajanPro.ttf
+        - asset: assets/fonts/TrajanPro_Bold.ttf
+          weight: 700
